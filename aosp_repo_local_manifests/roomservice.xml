@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gitlab" fetch="https://gitlab.com/"  />
+
+  <remove-project name="LineageOS/contributors-cloud-generator" />
+  <remove-project name="LineageOS/lineage_wiki" />
+  <remove-project name="LineageOS/slackbot" />
+  <remove-project name="LineageOS/cve_tracker" />
+  <remove-project name="LineageOS/hudson" />
+
+  <!-- <remove-project name="LineageOS/android_vendor_lineage" /> -->
+  <!-- <project path="vendor/lineage" name="frankclaassens/android_vendor_lineage" /> -->
+  
+  <!-- DEVICE -->
+  <project path="device/xiaomi/equuleus"      	name="LineageOS/android_device_xiaomi_equuleus"      remote="github" revision="lineage-16.0"/>
+  <project path="device/xiaomi/sdm845-common"   name="LineageOS/android_device_xiaomi_sdm845-common" remote="github" revision="lineage-16.0"/>
+
+  <!-- VENDOR -->
+  <project path="vendor/xiaomi"               	name="frankclaassens/proprietary_vendor_xiaomi"      remote="github" revision="lineage-16.0"/>
+
+  
+  <!-- KERNEL -->
+  <project path="kernel/xiaomi/sdm845" 				  name="LineageOS/android_kernel_xiaomi_sdm845"        remote="github" revision="lineage-16.0"/>
+
+  
+  <project path="packages/resources/devicesettings"	name="LineageOS/android_packages_resources_devicesettings" 	remote="github" revision="lineage-16.0"/>
+        
+  <!-- <project name="frankclaassens/android_prebuilts_prebuiltapks"    path="prebuilts/prebuiltapks"     remote="github" revision="master" /> -->
+  <!-- DO NOT UN-COMMENT <remove-project name="platform/hardware/google/apf" /> -->   
+</manifest>

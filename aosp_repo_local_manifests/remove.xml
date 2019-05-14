@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+<!-- Debloat Apps -->
+
+	<remove-project name="LineageOS/android_packages_apps_AudioFX" />
+	<!-- <remove-project name="LineageOS/android_packages_apps_Eleven" /> -->	
+	<remove-project name="LineageOS/android_packages_apps_Jelly" />
+	<remove-project name="LineageOS/android_packages_apps_FMRadio" />	
+	<remove-project name="LineageOS/android_packages_apps_Recorder" />
+	<!-- <remove-project name="LineageOS/android_packages_apps_LockClock" /> -->	
+	
+	<!-- <remove-project name="LineageOS/android_packages_apps_Terminal" /> -->
+	<remove-project name="LineageOS/android_packages_apps_DeskClock" />
+	<remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+	<!-- <remove-project name="LineageOS/android_packages_apps_WallpaperPicker" /> -->
+ 	<remove-project name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
+	<!-- <remove-project name="LineageOS/android_packages_apps_DocumentsUI" /> -->
+	<remove-project name="LineageOS/android_packages_apps_EmergencyInfo" />
+	<!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
+	<!-- <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" /> -->
+	<!-- <remove-project name="LineageOS/android_packages_apps_Snap" /> -->
+	<!-- <remove-project name="LineageOS/android_packages_apps_Updater" /> -->
+	
+<!-- Debloat Services -->
+
+	<!-- <remove-project name="LineageOS/android_packages_services_BuiltInPrintService" /> -->
+	
+<!-- Debloat Providers -->
+
+	<remove-project name="LineageOS/android_packages_providers_BookmarkProvider" />
+	<remove-project name="LineageOS/android_packages_providers_CalendarProvider" />
+	<!-- <remove-project name="LineageOS/android_packages_providers_DownloadProvider" /> -->
+	<!-- <remove-project name="LineageOS/android_packages_providers_WeatherProvider" /> -->
+	
+<!-- Debloat Wallpapers -->
+
+	<!-- <remove-project name="LineageOS/android_packages_wallpapers_LivePicker" />	 -->
+
+<!-- Debloat Screensavers -->
+
+	<!-- <remove-project name="LineageOS/android_packages_screensavers_PhotoTable" /> -->
+
+</manifest>
